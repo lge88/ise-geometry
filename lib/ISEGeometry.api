@@ -1,0 +1,60 @@
+
+// API:
+// Data types:
+//   Index :: Int
+//   Point :: [ Number ]
+//   Connectivity :: [ Index ],
+// Class methods:
+//   register :: ( Object ) -> ()
+//   fromJSON :: ( Object ) -> ISEGeometry
+// Events:
+// Instance members:
+//   pointset :: ISEPointSet
+//   topology :: ISETopology
+// Instance methods:
+//   constructor :: [ Point ] -> [ Connectivity ] -> ISEGeometry
+// query:
+//   getNumOfPoints :: void -> Int
+//   getDimOfPoints :: void -> Int
+//   getCoordOfPoints :: void -> [ [ Number ] ]
+//   getConnectivities :: void -> [ Connectivity ]
+//   getConn :: getConnectivities
+//   getPointIndices :: void -> [ Int ]
+//   getEdgeIndices :: void -> [ ( Int, Int ) ]
+//   getFaceIndices :: void -> [ ( Int, Int, Int ) ]
+//   getCellType :: Dim -> String
+//   getDimOfTopology :: void -> Int
+//   getNumOfNodesInCell :: void -> Int
+//   getNN :: getNumOfNodesInCell
+//   getCentroids :: Number -> ISEPointSet
+//   centroids :: getCentroids
+//   getFacet :: Number -> Number -> [ Number ]
+//   toJSON :: void -> Object
+//   clone :: void -> ISEGeometry
+//   isEqualTo :: ( ISEGeometry ) -> Boolean
+//   equals :: isEqualTo
+//   toPolygons :: void -> [ ISEPolygons ]
+// command:
+//   fromPolygons :: void -> [ ISEPolygons ]
+//   rotate :: [ Int ] -> [ Number ] -> this
+//   scale :: [ Int ] -> [ Number ] -> this
+//   translate :: [ Int ] -> [ Number ] -> this
+//   transform :: Matrix44 -> this
+//   embed :: Number -> this
+//   merge :: Number -> this
+//   map :: ( Point -> Index -> Point ) -> Boolean -> this
+//   extrude :: [ Number ] -> this
+//   explode :: [ Number ] -> this
+//   skeleton :: Int -> this
+//   boundary : () -> this
+//   prod :: ISEGeometry -> this
+//   cut :: ISEGeometry -> this
+//   fuse :: ISEGeometry -> this
+//   common :: ISEGeometry -> this
+//   complement :: () -> this
+// Must be overrided:
+//   _getTopologyConstructor :: void -> ( Any -> ISETopology )
+// Can be overrided:
+//   getFaceIndices :: void -> [ ( Int, Int, Int ) ]
+//   toPolygons :: void -> [ ISEPolygons ]
+//   fromPolygons :: [ ISEPolygons ] -> this

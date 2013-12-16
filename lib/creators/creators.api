@@ -1,0 +1,33 @@
+
+// API:
+// Data types:
+// Primitives:
+//   simplex ::
+//   polyline ::
+//   polypoint ::
+//   simplexGrid ::
+//   grid ::
+//   cuboid ::
+//   intervals ::
+//   domain ::
+//   cube ::
+//   circle ::
+//   disk ::
+//   cylinderSurface ::
+//   cylinderSolid ::
+//   torusSurface ::
+//   torusSolid ::
+//   triangleStrip ::
+//   triangleFan ::
+//   helix ::
+//   triangleDomain ::
+// Higher operations:
+//   group ::
+//   translate ::
+//   scale ::
+//   rotate ::
+//   extrude ::
+//   union ::
+//   diff ::
+//   common ::
+//   complement ::

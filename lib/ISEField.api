@@ -1,0 +1,17 @@
+
+
+// API:
+// Data types:
+//   Dim :: Int
+//   G :: Float
+//   B :: Float
+//   Color :: ( R, G, B )
+//   Scalar :: Float
+//   ColorMapType :: String
+//   ColorMapDataRecord :: ( Scalar, R, G, B )
+//   ColorMapData :: [ ColorMapDataRecord, ... ]
+// Instance methods:
+//   constructor ::  ColorMapType -> ISEColorMap
+//   constructor ::  ColorMapData -> ISEColorMap
+// query:
+//   map :: [ Scalar ] -> [ Color ]

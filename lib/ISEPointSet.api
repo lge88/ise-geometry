@@ -1,0 +1,35 @@
+
+// API:
+// Class methods:
+//   fromJSON :: Object -> PointSet
+// Events:
+// Data Types:
+//   Point :: [ Number ]
+//   Dim :: Int
+//   Rn :: Int
+//   Size :: Int
+//   Index :: Int
+// Public properties:
+// readonly:
+//   rn :: Rn
+//   size :: Size
+// Public methods:
+//   constructor :: [ Point ] -> Rn -> PointSet
+//   constructor :: Size -> Rn -> PointSet
+// query:
+//   toJSON :: () -> Object
+//   clone :: () -> PointSet
+//   equals :: PointSet -> Boolean
+//   get :: Index -> Point
+// command:
+//   set :: Point -> Index -> this
+//   forEach :: ( Point -> Index -> Any ) -> this
+//   filter :: ( Point -> Index -> Boolean ) -> this
+//   map :: ( Point -> Index -> Point ) -> this
+//   merge :: Number -> this
+//   rotate ::  [ Dim ] -> [ Number ] -> this
+//   scale ::  [ Dim ] -> [ Number ] -> this
+//   translate ::  [ Dim ] -> [ Number ] -> this
+//   embed :: Dim -> this
+//   prod :: PointSet -> this
+//   fuse :: PointSet -> this

@@ -1,0 +1,44 @@
+
+// API:
+// Class methods:
+//   fromJSON :: Object -> Topology
+// Events:
+// Data Types:
+//   Connectivity :: [ Int ]
+//   Dim :: Int
+//   Index :: Int
+//   Order :: Int
+// Constructors:
+//   [ Connectivity ] -> Dim -> Topology
+// Public properties:
+// readonly:
+//   dim :: Dim
+//   maxCells :: [],
+//   complexes = [ Connectivity ]
+// Public methods:
+// query:
+//   toJSON :: () -> Object
+//   clone :: () -> Topology
+//   equals :: Topology -> Boolean
+//   isEqualTo :: equals
+//   cells0d :: getPointIndices
+//   getCellType :: Dim -> String
+//   getCellSize :: Dim -> Int
+//   getNumOfCellsInDim :: Dim -> Int
+//   getPointIndices :: () -> [ Index ]
+//   getEdgeIndices :: () -> [ ( Index, Index ) ]
+//   getFaceIndices :: () -> [ ( Index, Index, Index ) ]
+//   getConnectivity :: () -> [ Connectivity ]
+// command:
+//   _computeTopology :: [ Connectivity ] -> Dim -> this
+//   remap :: [ Index ] -> this
+//   invert :: () -> this
+//   skeleton :: ( Order ) -> this
+//   boundary :: () -> this
+// Must be overrided:
+//   getCellType :: Dim -> String
+// Can be overrided:
+//   getCellSize :: Dim -> Int
+//   getPointIndices :: () -> [ Index ]
+//   getEdgeIndices :: () -> [ ( Index, Index ) ]
+//   getFaceIndices :: () -> [ ( Index, Index, Index ) ]

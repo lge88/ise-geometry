@@ -1,0 +1,12 @@
+
+
+// API:
+// Data types:
+// Instance member:
+     geometry :: ISEGeometry
+     dim :: Int
+     indices :: [ Int ]
+// Instance methods:
+//   constructor ::  ISEGeometry -> dim -> cells -> ISEGeometrySelection
+//    :: ( Point -> Point )
+//   remove :: ( Point -> Point )

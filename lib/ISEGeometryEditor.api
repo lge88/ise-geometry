@@ -1,0 +1,27 @@
+
+// API:
+// Data types:
+// Class methods:
+// Events:
+// Instance methods:
+//   constructor :: Options -> ISEGeometryEditor
+//   createCubeComplex:: [ Point ] -> [ Connectivity ] -> ISECubeGeometry
+//   createSimplexComplex :: [ Point ] -> [ Connectivity ] -> ISESimplexGeometry
+//   simplex ::
+//   polyline ::
+//   polypoint ::
+//   simplexGrid ::
+//   cuboid ::
+//   intervals ::
+//   domain ::
+//   cube ::
+//   circle ::
+//   disk ::
+//   cylinderSurface ::
+//   cylinderSolid ::
+//   torusSurface ::
+//   torusSolid ::
+//   triangleStrip ::
+//   triangleFan ::
+//   helix ::
+//   triangleDomain ::
